@@ -52,7 +52,7 @@ DC Migration
 
 ## Related references
 
-- [MCW](https://github.com/Microsoft/MCW)
+- [MCW](https://microsoftcloudworkshop.com)
 - [Hub-spoke network topology in Azure](https://learn.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/hub-spoke)
 - [What is Azure Database for MySQL?](https://learn.microsoft.com/azure/mysql/single-server/overview)
 - [Azure Database Migration Service](https://azure.microsoft.com/products/database-migration/#overview)
