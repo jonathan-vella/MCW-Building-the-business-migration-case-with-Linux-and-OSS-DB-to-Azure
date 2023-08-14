@@ -72,6 +72,8 @@ In this task, you will leverage a custom Azure Resource Manager (ARM) template t
 
     Once the ARM template is deployed, the status will change to complete.
 
+   **Note**: Verify deployment success of each resource.  Transient errors are possible and can cause problems later in the hands on lab.
+
 ### Task 2: Verify on-premises web application
 
 In this task, you will configure the web application hosted on the simulated on-premises virtual machine that was provisioned by the ARM Template deployment.
