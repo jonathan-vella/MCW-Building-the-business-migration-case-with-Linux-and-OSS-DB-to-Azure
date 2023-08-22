@@ -248,7 +248,14 @@ In this exercise, you will migrate the on-premises MySQL database for the web ap
 
     > **Note**: This error indicates incorrect MySQL user permissions. During the "Before the HOL" process, in Task 2, Step 4, were you able to successfully log in to the phpipam web application? If not, there might have been an error in the ARM Template deployment scripts. Check the deployment log of the Resource Group for indications of a failed deployment. If the deployment script did fail, you'll need to delete the resources or the entire resource group and then redo the "Before the HOL" deployment steps. Fixing a failed "Before the HOL" deployment isn't straightforward, so recreating it is often the simplest solution.
 
+   - **Potential Error**
+
+    ![Offline Data Migration Wizard error.](images/2023-08-14_12-25-43.png "User Permission Error")
+
+    > **Note**: This error indicates incorrect MySQL user permissions. During the "Before the HOL" process, in Task 2, Step 4, were you able to successfully log in to the phpipam web application? If not, there might have been an error in the ARM Template deployment scripts. Check the deployment log of the Resource Group for indications of a failed deployment. If the deployment script did fail, you'll need to delete the resources or the entire resource group and then redo the "Before the HOL" deployment steps. Fixing a failed "Before the HOL" deployment isn't straightforward, so recreating it is often the simplest solution.
+
 7. On the **Select database** tab, ensure the `phpipam` database is selected for both the **Source Database** and **Target Database**, then select **Next: Select tables >>**.
+
 
     ![The phpipam source and target database are selected with Next: Select tables highlighted.](images/2022-11-21-23-40-24.png "phpipam source and target database")
 
