@@ -242,29 +242,23 @@ In this exercise, you will migrate the on-premises MySQL database for the web ap
 
     ![Offline Data Migration Wizard screen with selected target tab with values entered and Next: Select databases highlighted](images/2022-11-21-23-37-12.png "Select target tab")
 
-   - **Potential Error**
-    
-    ![Offline Data Migration Wizard error.](images/2023-08-14_12-25-43.png "User Permission Error")
-
-    > **Note**: This error indicates incorrect MySQL user permissions. During the "Before the HOL" process, in Task 2, Step 4, were you able to successfully log in to the phpipam web application? If not, there might have been an error in the ARM Template deployment scripts. Check the deployment log of the Resource Group for indications of a failed deployment. If the deployment script did fail, you'll need to delete the resources or the entire resource group and then redo the "Before the HOL" deployment steps. Fixing a failed "Before the HOL" deployment isn't straightforward, so recreating it is often the simplest solution.
-
-7. On the **Select database** tab, ensure the `phpipam` database is selected for both the **Source Database** and **Target Database**, then select **Next: Select tables >>**.
+6. On the **Select database** tab, ensure the `phpipam` database is selected for both the **Source Database** and **Target Database**, then select **Next: Select tables >>**.
 
     ![The phpipam source and target database are selected with Next: Select tables highlighted.](images/2022-11-21-23-40-24.png "phpipam source and target database")
 
-8. On the **Select tables** tab, expand the `phpipam` table, and make sure all tables are selected, then select **Review and start migration**.
+7. On the **Select tables** tab, expand the `phpipam` table, and make sure all tables are selected, then select **Review and start migration**.
 
     ![All tables selected with Review and start migration highlighted.](images/2022-11-21-23-43-09.png "All tables selected")
 
-9. On the **Summary** tab, enter `phpipam` into the **Activity name** field, then select **Start migration**.
+8. On the **Summary** tab, enter `phpipam` into the **Activity name** field, then select **Start migration**.
 
     ![Summary tab with Activity name populated and Start migration highlighted.](images/2022-11-21-23-44-56.png "Summary tab")
 
-10. A migration details pane will now display, showing the **Status** as **Pending** while the migration is running.
+9. A migration details pane will now display, showing the **Status** as **Pending** while the migration is running.
 
     ![Migration pending status is highlighted.](images/2022-11-21-23-46-20.png "Migration pending")
 
-11. After a minute, select **Refresh** to check if the migration has been completed. Once complete, the **Status** will show as **Completed** and the **Migration details** will display the total number of tables that have been migrated.
+10. After a minute, select **Refresh** to check if the migration has been completed. Once complete, the **Status** will show as **Completed** and the **Migration details** will display the total number of tables that have been migrated.
 
     ![Migration complete status and refresh are highlighted](images/2022-11-21-23-49-09.png "Migration completed")
 
