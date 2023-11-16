@@ -1,6 +1,7 @@
 # Building the business migration case with Linux and OSS DB to Azure
 
-## NOTE: This workshop will retire November 16, 2023. This workshop is no longer being maintained.
+## NOTE: This workshop is archived and no longer being maintained. Content is read-only.
+
 
 Terra Firm Laboratories is a global bioengineering company that’s the leading researcher and innovator in genetic and biological science technology. The company was founded in 1975 with its corporate headquarters in Palo Alto, CA. Their mission-critical workloads are currently hosted in an on-premises datacenter and are beginning a journey to modernize and migrate into the cloud using Microsoft Azure.
 
